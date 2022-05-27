@@ -1,4 +1,4 @@
-package day16_notations;
+package tests.day16_notations;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -29,6 +29,7 @@ public class C04_DependsOnMethods {
     }
     @AfterClass
     public void tearDown(){
+
         driver.close();
     }
 
