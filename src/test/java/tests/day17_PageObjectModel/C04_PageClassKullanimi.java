@@ -11,4 +11,8 @@ public class C04_PageClassKullanimi {
      test data password : Manager1!
      Degerleri girildiginde sayfaya basarili sekilde girilebildigini test et
      */
+
+
+
 }
+
