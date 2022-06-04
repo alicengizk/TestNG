@@ -1,10 +1,8 @@
-package tests.day17_PageObjectModel;
+package tests.day17_pom;
 
 import com.github.javafaker.Faker;
-import org.openqa.selenium.devtools.v85.network.model.DataReceived;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.AmazonPage;
 import pages.FacebookPage;
 import utilities.Driver;
 

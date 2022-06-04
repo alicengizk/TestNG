@@ -1,5 +1,6 @@
 package pages;
 
+import io.opentelemetry.api.baggage.propagation.W3CBaggagePropagator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -25,6 +26,12 @@ public class BrcPage {
 
     @FindBy (id = "dropdown-basic-button")
     public WebElement kullaniciProfilIsmi;
+
+    @FindBy ()
+    public WebElement emailTextBox;
+
+    @FindBy ()
+    public WebElement passwordTextBox;
 
 
 }

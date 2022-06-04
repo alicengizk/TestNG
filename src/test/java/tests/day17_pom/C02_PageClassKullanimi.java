@@ -1,9 +1,8 @@
-package tests.day17_PageObjectModel;
+package tests.day17_pom;
 
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import pages.AmazonPage;
 import utilities.Driver;
 
